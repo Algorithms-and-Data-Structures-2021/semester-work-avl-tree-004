@@ -1,12 +1,20 @@
 #include <iostream>
 
-#include "data_structure.hpp"
-
+#include "AVLTree.hpp"
 using namespace std;
 
-int main(int argc, char *argv[]) {
-  for (int index = 0; index < argc; index++) {
-    cout << index << ": " << argv[index] << endl;
-  }
-  return 0;
+int main(int  /*argc*/, char * /*argv*/[]) {
+  AVLTree<std::string> tree;
+  tree.insert("a");
+  tree.insert("b");
+  tree.insert("c");
+  tree.insert("d");
+  tree.insert("e");
+
+
+  tree.display();
+
+
+
+  std::cout<<tree.find("c");
 }

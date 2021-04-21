@@ -29,13 +29,13 @@ add_library(project_paths INTERFACE)
 target_compile_definitions(project_paths INTERFACE
         PROJECT_SOURCE_DIR="${CMAKE_SOURCE_DIR}"
         PROJECT_DATASET_DIR="${CMAKE_SOURCE_DIR}/dataset/data")
+        #########СЮДА НАПИСАТЬ АЛООООО#############PROJECT_BENCHMARK_RESULT_DIR="${CMAKE_SOURCE_DIR}/benchmark/benchmark-visualization/benchmark-results"
 
 # === Библиотека со структурой данных (target) ===
 # Это самое главное, что вы должны реализовать в рамках семестрового проекта.
 
 add_library(${PROJECT_NAME} STATIC
-        src/data_structure.cpp
-        include/data_structure.hpp)
+        include/AVLTreeNode.hpp include/AVLTree.hpp src/AVLTreeNode.cpp src/AVLTree.cpp)
 
 # включить предупреждения компилятора для библиотеки (линковка)
 target_link_libraries(${PROJECT_NAME} PRIVATE project_warnings)
