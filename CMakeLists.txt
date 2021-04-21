@@ -29,7 +29,6 @@ add_library(project_paths INTERFACE)
 target_compile_definitions(project_paths INTERFACE
         PROJECT_SOURCE_DIR="${CMAKE_SOURCE_DIR}"
         PROJECT_DATASET_DIR="${CMAKE_SOURCE_DIR}/dataset/data")
-        #########СЮДА НАПИСАТЬ АЛООООО#############PROJECT_BENCHMARK_RESULT_DIR="${CMAKE_SOURCE_DIR}/benchmark/benchmark-visualization/benchmark-results"
 
 # === Библиотека со структурой данных (target) ===
 # Это самое главное, что вы должны реализовать в рамках семестрового проекта.
