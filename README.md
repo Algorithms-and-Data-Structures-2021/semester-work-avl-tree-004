@@ -90,7 +90,7 @@ cd insert
 ```
 
 Тестовые данные представлены в CSV формате (см.
-[`dataset/data/dataset-example.csv`](dataset/data/dataset-example.csv)):
+[`dataset/data/dataset-example.csv`](dataset-example.csv)):
 
 ```csv
 623,24,35,231,2,10,64,463,4,893
