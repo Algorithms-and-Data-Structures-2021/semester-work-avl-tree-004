@@ -48,7 +48,6 @@ target_include_directories(${PROJECT_NAME} PUBLIC include)
 # === Подключение подмодулей проекта ===
 
 add_subdirectory(dataset)
-add_subdirectory(examples)
 add_subdirectory(benchmark)
 
 # === main (target) ===
