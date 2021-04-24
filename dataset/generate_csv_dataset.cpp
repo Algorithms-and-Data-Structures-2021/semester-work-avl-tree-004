@@ -22,7 +22,6 @@ int main() {
   cout << "Dataset pathToErase: " << pathToErase << endl;
 
   vector<string> output_streams;
-
   output_streams.emplace_back("/100.csv");
   output_streams.emplace_back("/500.csv");
   output_streams.emplace_back("/1000.csv");
@@ -40,9 +39,9 @@ int main() {
   vector<int> integers = {100, 500, 1000, 5000, 10000, 25000, 50000, 100000, 250000, 500000, 750000, 1000000, 5000000};
 
   while (!integers.empty()) {
-    auto outputStreamForFind = ofstream(pathToFind + output_streams.front(), ios::ios_base::app);
-    auto outputStreamForErase = ofstream(pathToErase + output_streams.front(), ios::ios_base::app);
-    auto outputStreamForInsert = ofstream(pathToInsert + output_streams.front(), ios::ios_base::app);
+    auto outputStreamForFind = ofstream(pathToFind + output_streams.front(), ios::ios_base::trunc);
+    auto outputStreamForErase = ofstream(pathToErase + output_streams.front(), ios::ios_base::trunc);
+    auto outputStreamForInsert = ofstream(pathToInsert + output_streams.front(), ios::ios_base::trunc);
 
     const auto seed = chrono::system_clock::now().time_since_epoch().count();
     auto engine = mt19937(seed);  // без seed`а генератор будет выдавать одни и те же значения
