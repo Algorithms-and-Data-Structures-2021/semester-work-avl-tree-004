@@ -46,7 +46,7 @@ int main() {
 
     const auto seed = chrono::system_clock::now().time_since_epoch().count();
     auto engine = mt19937(seed);  // без seed`а генератор будет выдавать одни и те же значения
-    auto dist = uniform_int_distribution(0, 1000);  // равновероятное распределение генерируемых чисел
+    auto dist = uniform_int_distribution(0, 100000);  // равновероятное распределение генерируемых чисел
 
     if (outputStreamForFind) {
       for (int counter = 0; counter < integers.front(); counter++) {
