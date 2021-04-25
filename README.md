@@ -70,6 +70,7 @@ git clone https://github.com/Algorithms-and-Data-Structures-2021/semester-work-a
 Генерация тестового набора данных в
 формате [comma-seperated values (CSV)](https://en.wikipedia.org/wiki/Comma-separated_values):
 
+Инструкция по запуску скрипта:
 ```shell
 # Перейдите в папку генерации набора данных
 cd dataset
