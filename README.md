@@ -108,11 +108,11 @@ cd insert
 
 ##### Список контрольных тестов
 
-| Название                  | Описание                                | Метрики         |
-| :---                      | ---                                     | :---            |
-| `findMaxBenchmark`        | поиск максимального элемента в стркутуре| _время_         |
-| `insertbenchmark`         | добавление элементов в структуру данных | _время_         |
-| `eraseBenchmark`          | удаление элементов из структуры         | _время_         |
+| Название                   | Описание                                | Метрики         |
+| :---                       | ---                                     | :---            |
+| `find_max_benchmark`       | поиск максимального элемента в стркутуре| _время_         |
+| `insert_benchmark`         | добавление элементов в структуру данных | _время_         |
+| `erase_benchmark`          | удаление элементов из структуры         | _время_         |
 
 ##### Примеры запуска
 ```shell
@@ -120,9 +120,9 @@ cd insert
 cd benchmark
 
 # В папке есть 3 файла с контрольными тестами, по названию файлов понятно, какой метод они тестируют
-eraseBenchmark.cpp
-findBenchmark.cpp
-insertBenchmark.cpp
+erase_benchmark.cpp
+find_max_benchmark.cpp
+insert_benchmark.cpp
 
 # Запустите метод
 main()
@@ -131,7 +131,7 @@ main()
 # После прогона контрольных тестов в папке result появятся 3 файла с метриками
 cd result
 eraseResults.csv
-findResults.csv
+findMaxResults.csv
 insertResults.csv
 ```
 _В файлы записаваются 3 числа через запятую:_
