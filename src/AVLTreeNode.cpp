@@ -48,4 +48,4 @@ namespace itis {
   template struct AVLTreeNode<long>;
   template struct AVLTreeNode<long long>;
   template struct AVLTreeNode<std::string>;
-}
+}  // namespace itis

@@ -25,6 +25,6 @@ namespace itis {
     AVLTreeNode* left_rotate();
     AVLTreeNode* right_rotate();
   };
-}
+}  // namespace itis
 
 #endif /* AVLTreeNode_hpp */

@@ -42,24 +42,24 @@ int main() {
 
     const auto seed = chrono::system_clock::now().time_since_epoch().count();
     auto engine = mt19937(seed);  // без seed`а генератор будет выдавать одни и те же значения
-    auto dist = uniform_int_distribution(0, 10000);  // равновероятное распределение генерируемых чисел
+    auto dist = uniform_int_distribution(0, 10000000);  // равновероятное распределение генерируемых чисел
 
     if (outputStreamForFind) {
-      for (int counter = 0; counter < integers.front()-1; counter++) {
+      for (int counter = 0; counter < integers.front() - 1; counter++) {
         outputStreamForFind << dist(engine) << ',';
       }
       outputStreamForFind << dist(engine) << '\n';
     }
 
     if (outputStreamForErase) {
-      for (int counter = 0; counter < integers.front()-1; counter++) {
+      for (int counter = 0; counter < integers.front() - 1; counter++) {
         outputStreamForErase << dist(engine) << ',';
       }
       outputStreamForErase << dist(engine) << '\n';
     }
 
     if (outputStreamForInsert) {
-      for (int counter = 0; counter < integers.front()-1; counter++) {
+      for (int counter = 0; counter < integers.front() - 1; counter++) {
         outputStreamForInsert << dist(engine) << ',';
       }
       outputStreamForInsert << dist(engine) << '\n';

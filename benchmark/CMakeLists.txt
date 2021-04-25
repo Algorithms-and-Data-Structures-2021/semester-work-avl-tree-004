@@ -4,7 +4,7 @@
 # Пример создания контрольного теста (исполняемого файла) под названием demo_benchmark.
 # Исходный код предоставлен в файле demo_benchmark.cpp текущей директории.
 add_executable(insert_benchmark insert_benchmark.cpp)
-add_executable(find_benchmark find_max_and_min_benchmark.cpp)
+add_executable(find_benchmark find_benchmark.cpp)
 add_executable(erase_benchmark erase_benchmark.cpp)
 
 # Примечание: Не забываем подключить (прилинковать) библиотеку ${PROJECT_NAME} с реализацией структуры данных.

@@ -38,6 +38,6 @@ namespace itis {
 
     void display();
   };
-}
+}  // namespace itis
 
 #endif /* AVLTree_hpp */
