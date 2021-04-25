@@ -144,13 +144,13 @@ _В файлы записываются 3 числа через запятую:_
 
 ## Источники
 
-https://en.wikipedia.org/wiki/AVL_tree#Searching
+[Википедия](https://en.wikipedia.org/wiki/AVL_tree#Searching)
 
-https://www.guru99.com/avl-tree.html 
+[Информативная англоизычная статья](https://www.guru99.com/avl-tree.html)
 
-https://kvodo.ru/avl-tree.html 
+[Статья на русском языке](https://kvodo.ru/avl-tree.html)
 
-https://habr.com/ru/post/150732/
+[Хабр](https://habr.com/ru/post/150732/)
  
 
 
