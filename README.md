@@ -72,8 +72,8 @@ git clone https://github.com/Algorithms-and-Data-Structures-2021/semester-work-a
 
 Инструкция по запуску скрипта:
 
-|:---                                                                                  | :---                         |
 |                                                                                      |                              |
+| :---                                                                                 | :---                         |
 | 1) Перейдите в папку генерации набора данных                                         | dataset                      |
 | 2) Откройте файл                                                                     | generate_csv_dataset.cpp     |
 | 3) Запустите метод                                                                   | main()                       |
