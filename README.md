@@ -71,32 +71,14 @@ git clone https://github.com/Algorithms-and-Data-Structures-2021/semester-work-a
 формате [comma-seperated values (CSV)](https://en.wikipedia.org/wiki/Comma-separated_values):
 
 Инструкция по запуску скрипта:
-                                                                                                                  
+
+|                                                                                      |                              |
 | :---:                                                                                | :---:                        |
 | 1) Перейдите в папку генерации набора данных                                         | cd dataset                   |
 | 2) Откройте файл                                                                     | generate_csv_dataset.cpp     |
 | 3) Запустите метод                                                                   | main()                       |
 | 4) В папке dataset есть папка data, в ней еще 3 папки (erase, find, insert)          | cd data                      |
 | 5) После запуска скрипта, в этих папках появятся файлы для контрольного тестирования | cd erase, cd find, cd insert |
-
-```shell
-# Перейдите в папку генерации набора данных
-cd dataset
-
-# Перейдите в файл
-generate_csv_dataset.cpp
-
-# Запустите метод 
-main()
-
-# В папке dataset есть папка data, в ней еще 3 папки (erase, find, insert)
-cd data
-
-# После запуска скрипта, в этих папках появятся файлы для контрольного тестирования (файл .gitkeep является служебным, в нем нет наборов данных)
-cd erase
-cd find 
-cd insert
-```
 
 Тестовые данные представлены в CSV формате (см.
 [`dataset/data/dataset-example.csv`](dataset/data/dataset-example.csv)):
