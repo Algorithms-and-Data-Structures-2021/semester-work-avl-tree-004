@@ -72,13 +72,13 @@ git clone https://github.com/Algorithms-and-Data-Structures-2021/semester-work-a
 
 Инструкция по запуску скрипта:
 
+|:---                                                                                  | :---                         |
 |                                                                                      |                              |
-| :---:                                                                                | :---:                        |
-| 1) Перейдите в папку генерации набора данных                                         | cd dataset                   |
+| 1) Перейдите в папку генерации набора данных                                         | dataset                      |
 | 2) Откройте файл                                                                     | generate_csv_dataset.cpp     |
 | 3) Запустите метод                                                                   | main()                       |
-| 4) В папке dataset есть папка data, в ней еще 3 папки (erase, find, insert)          | cd data                      |
-| 5) После запуска скрипта, в этих папках появятся файлы для контрольного тестирования | cd erase, cd find, cd insert |
+| 4) В папке dataset есть папка data, в ней еще 3 папки (erase, find, insert)          | data                         |
+| 5) После запуска скрипта, в этих папках появятся файлы для контрольного тестирования | erase, find,    insert       |
 
 Тестовые данные представлены в CSV формате (см.
 [`dataset/data/dataset-example.csv`](dataset/data/dataset-example.csv)):
