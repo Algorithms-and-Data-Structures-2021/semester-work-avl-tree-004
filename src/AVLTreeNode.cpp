@@ -42,4 +42,9 @@ namespace itis {
 
     return L;
   }
+  template struct AVLTreeNode<int>;
+  template struct AVLTreeNode<short>;
+  template struct AVLTreeNode<long>;
+  template struct AVLTreeNode<long long>;
+  template struct AVLTreeNode<std::string>;
 }  // namespace itis

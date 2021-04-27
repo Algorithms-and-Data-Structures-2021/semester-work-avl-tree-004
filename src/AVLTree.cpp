@@ -243,4 +243,9 @@ namespace itis {
       display(cur->right, depth + 1, 2);
     }
   }
+  template struct AVLTree<int>;
+  template struct AVLTree<short>;
+  template struct AVLTree<long>;
+  template struct AVLTree<long long>;
+  template struct AVLTree<std::string>;
 }  // namespace itis
