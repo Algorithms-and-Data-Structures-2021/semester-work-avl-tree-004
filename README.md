@@ -71,7 +71,7 @@ git clone https://github.com/Algorithms-and-Data-Structures-2021/semester-work-a
 формате [comma-seperated values (CSV)](https://en.wikipedia.org/wiki/Comma-separated_values):
 
 Инструкция по запуску скрипта:
-|                                                                                      |                              |
+                                                                                                                  
 | :---:                                                                                | :---:                        |
 | 1) Перейдите в папку генерации набора данных                                         | cd dataset                   |
 | 2) Откройте файл                                                                     | generate_csv_dataset.cpp     |
