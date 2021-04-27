@@ -1,9 +1,9 @@
 //
 // Created by Семен Соколов on 25.04.2021.
 //
-#include <fstream>      // ifstream
-#include <iostream>     // cout
-#include <string>       // string, stoi
+#include <fstream>
+#include <iostream>
+#include <string>       // string
 #include <string_view>  // string_view
 #include <chrono>       // high_resolution_clock, duration_cast, nanoseconds
 #include <vector>
@@ -44,9 +44,9 @@ int main() {
         int line_number = 0;
         for (string line; getline(input_file, line, ','); /* ... */) {
           auto ss = stringstream(line);
-          const auto time_point_before_insert = chrono::steady_clock::now();
+          const auto time_point_before_insert = chrono::high_resolution_clock::now();
           avlTree.insert(stoi(line));
-          const auto time_point_after_insert = chrono::steady_clock::now();
+          const auto time_point_after_insert = chrono::high_resolution_clock::now();
           line_number++;
           time_diff_insert += time_point_after_insert - time_point_before_insert;
         }
