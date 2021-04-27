@@ -31,9 +31,8 @@ int main() {
   vector<string> files = {"100", "500", "1000", "5000", "10000", "50000", "100000", "500000", "1000000", "5000000"};
   AVLTree<int> avlTree;
 
-  for (string file : files) {       // Проходим по всем 10 .csv файлам
-    for (int i = 1; i < 11; i++) {  // Запускаем замерку времени 10 раз
-      string line = "1";
+  for (const string& file : files) {  // Проходим по всем 10 .csv файлам
+    for (int i = 1; i < 11; i++) {    // Запускаем замерку времени 10 раз
       auto input_file = ifstream(path + "/" + file + ".csv");
       auto time_diff_insert = chrono::nanoseconds::zero();
       cout << (path + "/" + file) << endl;
