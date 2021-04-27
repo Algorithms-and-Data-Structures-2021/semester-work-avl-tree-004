@@ -21,7 +21,7 @@ _2) Советская шахматная программа «Каисса», �
 
 | Фамилия Имя           | Вклад (%) | Титул                 |
 | :---:                 |   :---:   |  :---:                |
-| Semyon Sokolov        | 33        |  Raikage              |
+| Semyon Sokolov        | 34        |  Raikage              |
 | Sonya Kurguskina      | 33        |  Mizukage             |
 | Zukhra Shagiakhmetova | 33        |  Hokage               |
 
